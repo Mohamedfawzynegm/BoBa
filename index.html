@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="مؤسسة الخير للأعمال الخيرية - نحن نعمل معاً لمستقبل أفضل">
+    <meta name="keywords" content="جمعية خيرية, تبرع, تطوع, أعمال خيرية, مساعدة">
+    <title>مؤسسة الخير للأعمال الخيرية | الصفحة الرئيسية</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <!-- Preconnect to Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Skip to main content for accessibility -->
+    <a href="#main-content" class="skip-link">تخطي إلى المحتوى الرئيسي</a>
+
+    <!-- Announcement Banner -->
+    <div class="announcement-banner" role="alert">
+        <p>حملة رمضان الخيرية مستمرة حتى نهاية الشهر الكريم! 🌙 <a href="#ramadan-campaign">تعرف على المزيد</a></p>
+        <button class="close-banner" aria-label="إغلاق الإعلان"><i class="fas fa-times"></i></button>
+    </div>
+
+    <!-- Header Section -->
+    <header class="main-header" role="banner">
+        <div class="top-header">
+            <div class="header-container">
+                <div class="logo-container">
+                    <img src="/api/placeholder/150/60" alt="شعار مؤسسة الخير" class="logo">
+                </div>
+
+                <div class="header-actions">
+                    <div class="search-container">
+                        <form role="search" class="search-form">
+                            <input type="search" placeholder="ابحث في الموقع..." class="search-input"
+                                aria-label="البحث في الموقع">
+                            <button type="submit" class="search-btn">
+                                <i class="fas fa-search"></i>
+                                <span class="sr-only">بحث</span>
+                            </button>
+                        </form>
+                    </div>
+
+                    <div class="quick-actions">
+                        <a href="#" class="lang-switch">English</a>
+                        <a href="#" class="accessibility-toggle" aria-label="تغيير إعدادات سهولة الوصول">
+                            <i class="fas fa-universal-access"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <nav class="main-nav" role="navigation" aria-label="القائمة الرئيسية">
+            <div class="nav-container">
+                <button class="mobile-menu-toggle" aria-expanded="false">
+                    <i class="fas fa-bars"></i>
+                    <span class="sr-only">القائمة</span>
+                </button>
+
+                <ul class="nav-list">
+                    <li><a href="index.html" class="nav-btn active">الرئيسية</a></li>
+                    <li class="has-dropdown">
+                        <button class="nav-btn dropdown-toggle">برامجنا</button>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">برامج التعليم</a></li>
+                            <li><a href="#">برامج الصحة</a></li>
+                            <li><a href="#">برامج الإسكان</a></li>
+                            <li><a href="#">برامج التمكين</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="events.html" class="nav-btn">الفعاليات</a></li>
+                    <li><a href="activities.html" class="nav-btn">الأنشطة</a></li>
+                    <li><a href="volunteer.html" class="nav-btn">التطوع</a></li>
+                    <li><a href="about.html" class="nav-btn">عن المؤسسة</a></li>
+                    <li><a href="contact.html" class="nav-btn">اتصل بنا</a></li>
+                </ul>
+
+                <div class="nav-cta">
+                    <a href="#donate-modal" class="cta-btn donate-btn">تبرع الآن</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main id="main-content">
+        <!-- Hero Section -->
+        <section class="hero" aria-labelledby="hero-title">
+            <div class="hero-content">
+                <h1 id="hero-title">معاً نصنع الفرق</h1>
+                <p class="hero-subtitle">انضم إلينا في رحلة العطاء والخير لنبني مجتمعاً أفضل</p>
+                <div class="hero-cta">
+                    <button class="cta-btn donate-btn" data-modal="donate">تبرع الآن</button>
+                    <button class="cta-btn volunteer-btn" data-modal="volunteer">كن متطوعاً</button>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number" data-counter="150000">150,000+</span>
+                        <span class="stat-label">مستفيد</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-counter="5000">5,000+</span>
+                        <span class="stat-label">متطوع</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number" data-counter="100">100+</span>
+                        <span class="stat-label">مشروع</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-media">
+                <div class="hero-video-container">
+                    <video class="hero-video" autoplay muted loop playsinline poster="/api/placeholder/800/450">
+                        <source src="video-placeholder.mp4" type="video/mp4">
+                    </video>
+                </div>
+            </div>
+        </section>
+
+        <!-- Impact Section -->
+        <section class="impact-section" aria-labelledby="impact-title">
+            <h2 id="impact-title">أثرنا في المجتمع</h2>
+            <div class="impact-grid">
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>التعليم</h3>
+                    <p>دعم ١٠٠٠ طالب وطالبة في مسيرتهم التعليمية</p>
+                    <a href="#" class="impact-link">اقرأ المزيد</a>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>الإسكان</h3>
+                    <p>توفير ٥٠٠ وحدة سكنية للأسر المحتاجة</p>
+                    <a href="#" class="impact-link">اقرأ المزيد</a>
+                </div>
+                <div class="impact-card">
+                    <div class="impact-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>الصحة</h3>
+                    <p>تقديم الرعاية الصحية لـ ٥٠٠٠ مستفيد</p>
+                    <a href="#" class="impact-link">اقرأ المزيد</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Current Campaigns Section -->
+        <section id="ramadan-campaign" class="campaigns-section" aria-labelledby="campaigns-title">
+            <h2 id="campaigns-title">حملاتنا الحالية</h2>
+            <div class="campaign-slider" role="region" aria-label="عرض شرائح الحملات">
+                <div class="campaign-slide active">
+                    <div class="campaign-content">
+                        <h3>حملة رمضان ١٤٤٥</h3>
+                        <p>ساهم معنا في إفطار الصائمين وتوزيع السلال الغذائية</p>
+                        <div class="campaign-progress">
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 75%;" role="progressbar" aria-valuenow="75"
+                                    aria-valuemin="0" aria-valuemax="100"></div>
+                            </div>
+                            <div class="progress-stats">
+                                <span>الهدف: ١,٠٠٠,٠٠٠ ريال</span>
+                                <span>تم جمع: ٧٥٠,٠٠٠ ريال</span>
+                            </div>
+                        </div>
+                        <button class="campaign-btn">ادعم الحملة</button>
+                    </div>
+                    <div class="campaign-image">
+                        <img src="/api/placeholder/400/300" alt="صورة حملة رمضان">
+                    </div>
+                </div>
+                <!-- More campaign slides -->
+            </div>
+            <div class="campaign-controls">
+                <button class="prev-slide" aria-label="الحملة السابقة"><i class="fas fa-chevron-right"></i></button>
+                <div class="slide-indicators"></div>
+                <button class="next-slide" aria-label="الحملة التالية"><i class="fas fa-chevron-left"></i></button>
+            </div>
+        </section>
+
+        <!-- Donation Section -->
+        <section class="donation-section" aria-labelledby="donation-title">
+            <h2 id="donation-title">طرق التبرع</h2>
+            <div class="donation-options">
+                <div class="donation-card">
+                    <div class="donation-header">
+                        <i class="fas fa-hand-holding-heart"></i>
+                        <h3>تبرع لمرة واحدة</h3>
+                    </div>
+                    <div class="donation-amounts">
+                        <button class="amount-btn" data-amount="100">١٠٠ ريال</button>
+                        <button class="amount-btn" data-amount="200">٢٠٠ ريال</button>
+                        <button class="amount-btn" data-amount="500">٥٠٠ ريال</button>
+                        <button class="amount-btn custom-amount">مبلغ آخر</button>
+                    </div>
+                    <div class="donation-input hidden">
+                        <input type="number" placeholder="أدخل المبلغ" min="1">
+                        <span class="currency">ريال</span>
+                    </div>
+                    <button class="donate-btn">تبرع الآن</button>
+                </div>
+                <div class="donation-card">
+                    <div class="donation-header">
+                        <i class="fas fa-sync-alt"></i>
+                        <h3>تبرع شهري</h3>
+                    </div>
+                    <div class="donation-amounts">
+                        <button class="amount-btn" data-amount="50">٥٠ ريال</button>
+                        <button class="amount-btn" data-amount="100">١٠٠ ريال</button>
+                        <button class="amount-btn" data-amount="200">٢٠٠ ريال</button>
+                        <button class="amount-btn custom-amount">مبلغ آخر</button>
+                    </div>
+                    <div class="donation-input hidden">
+                        <input type="number" placeholder="أدخل المبلغ" min="1">
+                        <span class="currency">ريال</span>
+                    </div>
+                    <button class="donate-btn">اشترك الآن</button>
+                </div>
+            </div>
+            <div class="payment-methods">
+                <h3>طرق الدفع المتاحة</h3>
+                <div class="payment-icons">
+                    <i class="fab fa-cc-visa"></i>
+                    <i class="fab fa-cc-mastercard"></i>
+                    <i class="fab fa-cc-amex"></i>
+                    <img src="/api/placeholder/60/30" alt="مدى" class="mada-logo">
+                </div>
+            </div>
+        </section>
+
+        <!-- Volunteer Section -->
+        <section class="volunteer-section" aria-labelledby="volunteer-title">
+            <h2 id="volunteer-title">انضم إلى فريق المتطوعين</h2>
+            <div class="volunteer-grid">
+                <div class="volunteer-info">
+                    <h3>كيف تصبح متطوعاً؟</h3>
+                    <div class="volunteer-steps">
+                        <div class="step">
+                            <div class="step-number">١</div>
+                            <h4>سجل حساباً</h4>
+                            <p>أنشئ حساباً في منصة التطوع</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">٢</div>
+                            <h4>اختر المجال</h4>
+                            <p>حدد مجال التطوع المناسب لك</p>
+                        </div>
+                        <div class="step">
+                            <div class="step-number">٣</div>
+                            <h4>ابدأ رحلتك</h4>
+                            <p>انضم إلى الفرص التطوعية المتاحة</p>
+                        </div>
+                    </div>
+                    <button class="volunteer-btn large">سجل كمتطوع</button>
+                </div>
+                <footer>
+                    <p>&copy; 2023 منصة التطوع. جميع الحقوق محفوظة.</p>
+                </footer>
+                <script src="JS/script.js"></script>
+</body>
+
+</html>
